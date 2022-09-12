@@ -1,10 +1,11 @@
 #include <stdio.h>
 /**
- * main- prints _putchar
+ * main-prits _putchar
+ * followed by a new line
  * Return: Always 0 (Success)
  */
 int main(void)
 {
-	_putchar('\n');
+	write(_putchar);
 	return (0);
 }
