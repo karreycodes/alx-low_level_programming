@@ -2,16 +2,16 @@
 #include <stdio.h>
 /**
  * _abs-computes the absolute value of an integer
- * Return: the absolute value of int
+ * @c: is the int that will use for the argument of the function
+ * Return: 0
  */
-int _abs(int r)
+int _abs(int c)
 {
-	int r;
-
-	if (r >= 0)
+	if (c > 0 || c == 0)
 	{
-		return (r);
+		return (c);
 	}
-	return (-r);
+	else
+	return (c * -1);
 }
 
