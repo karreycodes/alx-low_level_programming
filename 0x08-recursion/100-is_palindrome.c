@@ -5,7 +5,7 @@
  *  @s: pointer to string params
  *  Return: recursion
  */
-int is_palindrome(char *s)
+int _strlen_recursion(char *s)
 {
 	if (!*s)
 	{
