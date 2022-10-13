@@ -33,6 +33,18 @@ int op_sub(int a, int b)
  *
  * Return: ...
  */
+int op_mul(int a, int b)
+{
+	return (a * b);
+}
+
+/**
+ * op_div - ...
+ * @a: ...
+ * @b: ...
+ *
+ * Return: ...
+ */
 int op_div(int a, int b)
 {
 	if (b == 0)
