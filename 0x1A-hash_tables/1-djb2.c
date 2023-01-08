@@ -1,10 +1,11 @@
 #include "hash_tables.h"
 
 /**
- * hash_djb2 - hash function implementing the djb2 algorithm
- * @str: string to hash
+ * hash_djb2 - function that generates a random number through
+ * a string given (hash number)
  *
- * Return: hash index corresponding to the string
+ * @str: string
+ * Return: hash number
  */
 unsigned long int hash_djb2(const unsigned char *str)
 {
